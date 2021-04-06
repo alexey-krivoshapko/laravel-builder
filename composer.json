@@ -1,0 +1,33 @@
+{
+  "name": "alexey-krivoshapko/laravel-builder",
+  "type": "project",
+  "description": "",
+  "authors": [
+    {
+      "name": "Alexey Krivoshapko",
+      "email": "mywryway@gmail.com"
+    }
+  ],
+  "config": {
+    "preferred-install": {
+      "laravel/framework": "dist"
+    }
+  },
+  "require": {
+    "laravel/framework": "v8.35.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+
+    },
+    "classmap": []
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
